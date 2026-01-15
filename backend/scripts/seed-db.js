@@ -50,7 +50,7 @@ async function seed() {
     const hash = await bcrypt.hash('admin1', salt);
     
     db.run(`INSERT INTO users (email, password_hash, nombre) VALUES ('admin@kivo.app', '${hash}', 'Administrador')`);
-    console.log('✅ Admin user created: admin@kivo.app / admin');
+    console.log('✅ Admin user created: admin@kivo.app / admin1');
   } else {
     console.log('ℹ️  Admin user already exists');
   }

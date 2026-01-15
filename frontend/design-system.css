@@ -20,8 +20,8 @@
   --radius-xl: 24px;
   
   /* Accents */
-  --text-accent: #fabb33; /* Gold for highlights */
-  --text-accent-glow: #fbff00fa; /* Neon Gold for titles */
+  --text-accent: #3b82f6; /* Blue for highlights */
+  --text-accent-glow: #60a5fa; /* Light Blue for titles */
   
   /* Status Colors */
   --status-green: #22c55e;
@@ -29,8 +29,8 @@
   --status-red: #ef4444;
   --status-gray: #6c6f72; /* For 'new' or 'unknown' */
 
-  /* Buttons - Primary (Gold/Gradient) */
-  --btn-primary-bg: linear-gradient(135deg, #bfcc02 0%, #fbff00fa 100%);
+  /* Buttons - Primary (Blue/Gradient) */
+  --btn-primary-bg: linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%);
   --btn-primary-text: #000000;
   --btn-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   --btn-hover-transform: translateY(-2px);
@@ -38,7 +38,7 @@
   /* Inputs */
   --input-bg: rgba(94, 94, 94, 0.486);
   --input-border: 2px solid #d4e1e2;
-  --input-focus-border: #fabb33;
+  --input-focus-border: #3b82f6;
   --input-text: #d4e1e2;
 }
 

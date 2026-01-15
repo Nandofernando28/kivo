@@ -62,7 +62,7 @@ function Sidebar({ isOpen, toggleSidebar }) {
           >
             <HamburgerIcon />
           </button>
-          <span className="sidebar-brand">Kivo</span>
+          <img src="/kivosit.webp" alt="Kivo" className="sidebar-logo-img" />
         </div>
 
         {/* Navigation */}
