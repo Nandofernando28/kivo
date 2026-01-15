@@ -1,4 +1,5 @@
 import React from 'react';
+import { AuthProvider } from './hooks/useAuth';
 import AppRoutes from './routes';
 import './App.css';
 
@@ -38,11 +39,13 @@ class ErrorBoundary extends React.Component {
 
 function App() {
   return (
-    <ErrorBoundary>
-      <main>
-        <AppRoutes />
-      </main>
-    </ErrorBoundary>
+    <AuthProvider>
+      <ErrorBoundary>
+        <main>
+          <AppRoutes />
+        </main>
+      </ErrorBoundary>
+    </AuthProvider>
   );
 }
 
